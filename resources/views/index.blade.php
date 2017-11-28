@@ -2,10 +2,8 @@
 @extends('layouts.base')
 @section('content')
 
-
-<div>
---Body--
-</div>
+<h2>{{$obj->name}}</h2>
+<div>{!!$obj->name!!}</div>
 @endsection
 
 
